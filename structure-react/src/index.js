@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1>Hi There. This is Md Khairul Bashar !!</h1>
+    <h1>Hi There...!!</h1>
   </React.StrictMode>
 );
 
