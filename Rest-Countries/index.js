@@ -7,3 +7,5 @@ const loadCountries =() =>{
 const displayCountries = countries => {
     console.log(countries);
 }
+
+loadCountries();
