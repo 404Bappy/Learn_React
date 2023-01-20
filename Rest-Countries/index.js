@@ -19,6 +19,7 @@ const getCountry = country => {
 <h4>Capital : ${country.capital}</h4>
 <img src ="${country.flag}">
 
+
 </div>
 
 `
