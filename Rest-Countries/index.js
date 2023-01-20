@@ -5,6 +5,7 @@ const loadCountries = () => {
 }
 
 const displayCountries = countries => {
+    const 
     const CountryHtmls = countries.map(country => getCountry(country));
 console.log(CountryHtmls);
 }
