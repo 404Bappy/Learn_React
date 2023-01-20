@@ -5,8 +5,10 @@ const loadCountries = () => {
 }
 
 const displayCountries = countries => {
-    const 
+    const container = document.getElementById('countries');
     const CountryHtmls = countries.map(country => getCountry(country));
+
+    container.innerHTML= CountryHtmls;
 console.log(CountryHtmls);
 }
 

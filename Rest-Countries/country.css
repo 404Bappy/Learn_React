@@ -1,0 +1,11 @@
+.countries{
+    border: 3px solid red;
+    background-color: aquamarine;
+    justify-items: center;
+    padding: 20px;
+
+}
+
+.countries img{
+    width: 200px;
+}
