@@ -1,11 +1,18 @@
-.countries{
-    border: 3px solid red;
+.country{
+    border: 3px solid rgb(68, 65, 65);
     background-color: aquamarine;
     justify-items: center;
     padding: 20px;
+    border-radius: 20px;
 
 }
 
-.countries img{
+.country img{
     width: 200px;
 }
+
+
+.country{
+    justify-content: center;
+}
+

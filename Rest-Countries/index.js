@@ -14,7 +14,7 @@ console.log(CountryHtmls);
 
 const getCountry = country => {
     return `
-<div>
+<div class ="country">
 <h2>${country.name}</h2>
 <h4>Capital : ${country.capital}</h4>
 <img src ="${country.flag}">
