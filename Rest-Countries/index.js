@@ -8,8 +8,8 @@ const displayCountries = countries => {
     const container = document.getElementById('countries');
     const CountryHtmls = countries.map(country => getCountry(country));
 
-    container.innerHTML= CountryHtmls;
-console.log(CountryHtmls);
+    container.innerHTML = CountryHtmls;
+    console.log(CountryHtmls);
 }
 
 const getCountry = country => {
@@ -18,6 +18,8 @@ const getCountry = country => {
 <h2>${country.name}</h2>
 <h4>Capital : ${country.capital}</h4>
 <img src ="${country.flag}">
+<h5>Subregion: ${country.subregion}</h5>
+<h5>Borders : ${country.borders}</h5>
 
 
 </div>
