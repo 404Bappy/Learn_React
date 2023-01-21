@@ -2,7 +2,7 @@
     border: 3px solid rgb(68, 65, 65);
     background-color: aquamarine;
     width: 350px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
 
 }
@@ -14,12 +14,24 @@
 }
 
 
-.country{
-    justify-content: center;
-}
+
 
 .countries{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 20px;
+
+}
+
+.up{
+    color:rgb(5, 5, 5);
+    background-color:aquamarine;
+    justify-items: center;
+    text-align: center;
+    border: 2px solid rgb(10, 10, 10);
+    border-radius: 10px;
+    
+
+    
 }
 

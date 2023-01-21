@@ -13,13 +13,15 @@ const displayCountries = countries => {
 }
 
 const getCountry = country => {
+
+    const {name, capital, flag, subregion, borders} = country;
     return `
 <div class ="country">
-<h2>${country.name}</h2>
-<h4>Capital : ${country.capital}</h4>
-<img src ="${country.flag}">
-<h5>Subregion: ${country.subregion}</h5>
-<h5>Borders : ${country.borders}</h5>
+<h2>${name}</h2>
+<h4>Capital : ${capital}</h4>
+<img src ="${flag}">
+<h5>Subregion: ${subregion}</h5>
+<h5>Borders : ${borders}</h5>
 
 
 </div>
