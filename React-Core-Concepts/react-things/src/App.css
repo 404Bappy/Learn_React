@@ -49,6 +49,13 @@
   margin: 10px;
 }
 
+.Barca{
+  border: 5px solid rgb(128, 8, 8);
+  background-color: #6a68b6;
+  border-radius: 20px;
+  margin: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

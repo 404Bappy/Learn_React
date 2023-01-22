@@ -3,9 +3,37 @@ import './App.css';
 
 function App() {
 
+  const BarcaPlayers = ["Pedri", "Gavi", "Fati", "Stegan", "Dembele","Kunde"];
+
+  const Positions = [
+    {player : 'Pedri', position : "CMF"},
+    {player : 'Gavi', position : "AMF"},
+    {player : "Fati", position : "SS"},
+    {player : "Stegan", position : "GK"},
+    {player : "Dembele", position: "LWF"},
+    {player : "Kunde", position : "RB"}
+  ]
+
 
   return (
     <div className="App">
+       <ul>
+         {
+           BarcaPlayers.map( player => <li>{player}</li>)
+         }
+       </ul>
+
+       <ul>
+         {
+           Positions.map(Position => <Barca player ={Position.player} position ={Position.position}></Barca>)
+         }
+       </ul>
+        
+
+ 
+            
+
+
       <Person Name="BAPPY" Job="Footballer"></Person>
       <Person Name="BASHAR" Job="Cricketer"></Person>
       <Person Name="KHAIRUL" Job="Body-Builder"></Person>
@@ -17,6 +45,10 @@ function App() {
       <Car CarName="FORD" Color="GREEN" Registration_Year="2018"></Car>
       <Car CarName="THAR" Color="PINK" Registration_Year="2022"></Car>
       <Car CarName="HONDA" Color="BLACK" Registration_Year="2021"></Car>
+
+
+
+       
 
     </div>
   );
@@ -40,6 +72,15 @@ function Car(props) {
 
       <h3></h3>
       <h5></h5>
+    </div>
+  )
+}
+
+function Barca(props){
+  return(
+    <div className ="Barca">
+       <h1>Player Name : {props.player}</h1>
+       <h2>Position : {props.position}</h2>
     </div>
   )
 }
