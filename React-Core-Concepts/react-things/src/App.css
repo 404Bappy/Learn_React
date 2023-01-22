@@ -35,6 +35,13 @@
   border-radius: 10px;
 }
 
+.Person{
+  border: 5px solid purple;
+  background-color: #61dafb;
+  border-radius: 10px;
+  
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
