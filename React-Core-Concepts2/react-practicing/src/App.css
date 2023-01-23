@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.Product{
+  border: 3px solid blue;
+  background-color: burlywood;
+  border-radius: 10px;
+  margin: 5px;
+
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
