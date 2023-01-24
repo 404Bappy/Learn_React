@@ -7,7 +7,9 @@ function App() {
     {name : 'Laptop', price : '1000$'},
     {name : 'AirBud', price : '500$'},
     {name : 'HUB', price : '500$'},
-    {name : 'SmartWatch', price : '500$'}
+    {name : 'SmartWatch', price : '500$'},
+    {name : 'astst', price : '500$'}
+    
   ]
 
 
