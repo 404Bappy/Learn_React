@@ -4,12 +4,12 @@ import './App.css';
 function App() {
   const Crickters = [
     {name : "Sakib Al Hasan", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"},
-    {name : "Sakib Al Hasan", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"},
-    {name : "Sakib Al Hasan", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"},
-    {name : "Sakib Al Hasan", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"},
-    {name : "Sakib Al Hasan", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"},
-    {name : "Sakib Al Hasan", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"},
-    {name : "Sakib Al Hasan", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"}
+    {name : "Taskin Ahmed", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"},
+    {name : "Mehedi Miraz", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"},
+    {name : "Mustafiz", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"},
+    {name : "Nasir Hossain", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"},
+    {name : "Shommoya Sarkar", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"},
+    {name : "Tamim Iqbal", Nationality : "Bangladeshi" , Bidding_Price : "10 lakh"}
   ]
   
   
