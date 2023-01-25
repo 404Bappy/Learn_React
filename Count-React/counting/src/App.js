@@ -16,6 +16,10 @@ function Counter() {
     const newCount = count + 1;
     setCount(newCount);
   }
+  const handleDecrease = () => {
+    const newCount = count - 1;
+    setCount(newCount);
+  }
 
 
 
@@ -27,7 +31,7 @@ function Counter() {
       <button onClick={handleIncrease} className="btn">Increse  +</button>
       <br />
       <br />
-      <button className="btn1">Decrese -</button>
+      <button onClick={handleDecrease} className="btn1">Decrese -</button>
 
     </div>
   )
