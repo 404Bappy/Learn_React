@@ -1,10 +1,11 @@
 import React from 'react';
+import Config from './Config/Config';
 
 const Device = (props) => {
     return (
         <div>
             <h2>My Device : {props.name}</h2>
-            <h4>Price : {props.Price}</h4>
+            <Config price={props.Price} />
         </div>
     );
 };
