@@ -2,7 +2,7 @@ import React from 'react';
 
 const Config = (props) => {
     return (
-        <div>
+        <div className='ConfigD'>
             <ul>
                 <li>price : {props.price}</li>
             </ul>
