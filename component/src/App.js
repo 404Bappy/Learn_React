@@ -10,15 +10,15 @@ function App() {
     setSteps(newStepsCount);
   }
 
-  useEffect(() =>{
+  useEffect(() => {
     console.log("HEllo");
   }, [])
 
   return (
     <div className="App">
       <h3>My steps : {steps}</h3>
-      <button onClick={handleIncreaseSteps}>Walk</button>
-      <Device name="PHone" steps = {steps} Price="100000"  />
+      <button onClick={handleIncreaseSteps} style={{ borderRadius: '5px', backgroundColor: 'cadetblue' }}>Walk</button>
+      <Device name="PHone" steps={steps} Price="100000" />
     </div>
   );
 }
