@@ -5,14 +5,22 @@ import { useEffect, useState } from 'react';
 
 function App() {
   const [steps, setSteps] = useState(0);
+  const books = [
+    { name: 'Small Giants', author: 'bo' },
+    { name: 'Build To Sell', author: 'jhon' },
+    { name: '100$ Startup', author: 'Chris' },
+    { name: ' Grind it', author: 'Ray' },
+    { name: 'Small Giants', author: 'bo' },
+
+  ]
   const handleIncreaseSteps = () => {
     const newStepsCount = steps + 1;
     setSteps(newStepsCount);
   }
 
   useEffect(() => {
-    console.log("HEllo");
-  }, [])
+    console.log(steps);
+  }, [steps])
 
   return (
     <div className="App">

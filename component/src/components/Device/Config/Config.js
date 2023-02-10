@@ -10,4 +10,4 @@ const Config = (props) => {
     );
 };
 
-export default Config;
+export default Config; 
