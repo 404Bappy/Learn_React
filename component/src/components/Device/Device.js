@@ -6,7 +6,7 @@ const Device = (props) => {
         <div className='DeviceD'>
             <h2>My Device : {props.name}</h2>
             <h4>Current steps : {props.steps}</h4>
-            <Config price={props.Price} steps = {props.steps} />
+            <Config price={props.Price} steps={props.steps} />
         </div>
     );
 };
