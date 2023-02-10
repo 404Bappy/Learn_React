@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Device from './components/Device/Device';
 import { useEffect, useState } from 'react';
@@ -28,7 +28,7 @@ function App() {
       <h3>My steps : {steps}</h3>
       <button onClick={handleIncreaseSteps} style={{ borderRadius: '5px', backgroundColor: 'cadetblue' }}>Walk</button>
       <Device name="PHone" steps={steps} Price="100000" />
-      <Books books = {books} />
+      <Books books={books} />
     </div>
   );
 }
