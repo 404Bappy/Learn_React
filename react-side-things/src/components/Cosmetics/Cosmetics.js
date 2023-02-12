@@ -10,7 +10,7 @@ const Cosmetics = () => {
 
     return (
         <div>
-
+        
         </div>
     );
 };
