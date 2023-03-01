@@ -2,10 +2,12 @@
 import './App.css';
 import ExternalUsers from './Component/ExternalUsers';
 
+
 function App() {
   return (
     <div className="App">
-        <ExternalUsers></ExternalUsers>
+      <ExternalUsers></ExternalUsers>
+     
     </div>
   );
 }

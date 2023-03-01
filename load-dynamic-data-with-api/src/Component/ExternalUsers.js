@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import UserDetails from './UserDetails';
 
 const ExternalUsers = () => {
     const [users, setUsers] = useState([]);
@@ -14,7 +15,7 @@ const ExternalUsers = () => {
             <h3>External Users</h3>
 
             {
-                users.map(user => <li>{user.name}</li>)
+                users.map(user => <UserDetails name={user.name} email={user.email}></UserDetails>)
             }
         </div>
     );
