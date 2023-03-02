@@ -47,10 +47,18 @@
 
 }
 
-.Div_Count button {
+.btn {
   background-color: greenyellow;
   margin-bottom: 50px;
-  border-radius: 10px;
+  border-radius: 3px;
+}
+
+.btn- {
+  background-color: tomato;
+  margin-inline: 10px;
+  margin-bottom: 50px;
+  border-radius: 3px;
+
 }
 
 @keyframes App-logo-spin {
