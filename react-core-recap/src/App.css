@@ -28,10 +28,36 @@
   color: #61dafb;
 }
 
+.Count {
+  border: 2px solid green;
+  margin: 200px;
+  max-width: 100%;
+  background-color: lightsalmon;
+  margin-top: 50px;
+  border-radius: 30px;
+
+
+}
+
+.Div_Count {
+  border: 2px solid gray;
+  background-color: khaki;
+  margin: 250px;
+  border-radius: 20px;
+
+}
+
+.Div_Count button {
+  background-color: greenyellow;
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

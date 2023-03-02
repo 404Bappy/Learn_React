@@ -6,8 +6,9 @@ const Count = () => {
         setCount(count + 1);
     }
     return (
-        <div>
-            <h1>Count : {count} </h1>
+        <div className='Div_Count'>
+            <h1 className='Count'>Count : {count} </h1>
+            <h4>Click The Green Button To Increase Count</h4>
             <button onClick={CountHandler}>INCREASE + </button>
         </div>
     );
