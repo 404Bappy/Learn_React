@@ -12,9 +12,9 @@ const LoadComments = (props) => {
     return (
         <div className='Person'>
             <h3>Usser Comments : </h3>
-            {
+            {/* {
                 comments.map(comment => <ShowComment title={comment.postId} body={comment.body}  ></ShowComment>)
-            }
+            } */}
         </div>
     );
 };
