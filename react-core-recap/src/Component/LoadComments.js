@@ -10,10 +10,10 @@ const LoadComments = (props) => {
             .then(data => setComments(data));
     }, [])
     return (
-        <div className='Person'>
+        <div >
             <h3>Usser Comments : </h3>
             {
-                comments.map(comment => <ShowComment title={comment.postId} body={comment.body}  ></ShowComment>)
+                comments.map(comment => <ShowComment title={comment.title} body={comment.body}  ></ShowComment>)
             }
         </div>
     );
